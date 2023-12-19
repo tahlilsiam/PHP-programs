@@ -20,6 +20,4 @@ if( mysqli_query($conn,$sql)){
     echo json_encode(array('message'=> 'Record not Deleted','status'=> false));
 }
 
-
-
 ?>
